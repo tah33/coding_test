@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa47d079-0dc4-4f36-8602-f954fe484d35" name="Default Changelist" comment="working on login restrictions">
+    <list default="true" id="fa47d079-0dc4-4f36-8602-f954fe484d35" name="Default Changelist" comment="login restrictions and finishing task...only needs to checking and update readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ThrottlesLogins.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ThrottlesLogins.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +171,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605110756157</updated>
       <workItem from="1605110757193" duration="2326000" />
-      <workItem from="1605343818157" duration="9365000" />
+      <workItem from="1605343818157" duration="10624000" />
     </task>
     <task id="LOCAL-00001" summary="login and registration fixed,creating stripe form">
       <created>1605344971065</created>
@@ -209,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605352374395</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="login restrictions and finishing task...only needs to checking and update readme">
+      <created>1605353257587</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605353257587</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,17 +242,18 @@
     <MESSAGE value="working on monthly report" />
     <MESSAGE value="monthly report done" />
     <MESSAGE value="working on login restrictions" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on login restrictions" />
+    <MESSAGE value="login restrictions and finishing task...only needs to checking and update readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="login restrictions and finishing task...only needs to checking and update readme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="493" y="141" key="FileChooserDialogImpl" timestamp="1605199699083">
       <screen x="45" y="24" width="1321" height="744" />
     </state>
     <state x="493" y="141" key="FileChooserDialogImpl/45.24.1321.744@45.24.1321.744" timestamp="1605199699083" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605352379608">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605353264634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605352379608" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605353264634" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605351851073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
