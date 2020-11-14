@@ -12,9 +12,12 @@ class ReportController extends Controller
 {
     public function monthlyReport()
     {
-        $payments = Payment::where('user_id',Auth::id())->select('amount','start_date','end_date','created_at', DB::raw('DATE_FORMAT(created_at , "%b") as month'))
-            ->groupBy('month')->latest()->get();
-
-        return view('report.monthly_report',compact('payments'));
+        try {
+            $payments = Payment::where('user_id', Auth::id())->select('amount', 'start_date', 'end_date', 'created_at', DB::raw('DATE_FORMAT(created_at , "%b") as month'))
+                ->groupBy('month')->latest()->get();
+            return view('report.monthly_report', compact('payments'));
+        } catch (\Exception $e) {
+            return back()->with('error','Something Went Wrong');
+        }
     }
 }

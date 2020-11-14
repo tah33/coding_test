@@ -2,7 +2,9 @@
 
 namespace Illuminate\Foundation\Auth;
 
+use App\Payment;
 use Illuminate\Http\Request;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\ValidationException;
 
@@ -119,7 +121,10 @@ trait AuthenticatesUsers
      */
     protected function authenticated(Request $request, $user)
     {
-        //
+        session()->forget('increased_time');
+        $payment = Payment::whereMonth('created_at',Carbon::now())->where('user_id',$user->id)->first();
+        if (!$payment)
+            User::where('id',$user->id)->update(['status'=>0]);
     }
 
     /**

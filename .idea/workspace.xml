@@ -19,12 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa47d079-0dc4-4f36-8602-f954fe484d35" name="Default Changelist" comment="working on monthly report">
+    <list default="true" id="fa47d079-0dc4-4f36-8602-f954fe484d35" name="Default Changelist" comment="monthly report done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReportController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReportController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Payment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/report/monthly_report.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/report/monthly_report.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ThrottlesLogins.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ThrottlesLogins.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +175,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605110756157</updated>
       <workItem from="1605110757193" duration="2326000" />
-      <workItem from="1605343818157" duration="6463000" />
+      <workItem from="1605343818157" duration="8329000" />
     </task>
     <task id="LOCAL-00001" summary="login and registration fixed,creating stripe form">
       <created>1605344971065</created>
@@ -197,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605348745614</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="monthly report done">
+      <created>1605350436538</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605350436538</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,20 +230,21 @@
     <MESSAGE value="doing functionality for completing paymetn process" />
     <MESSAGE value="doing functionality for completing payment process" />
     <MESSAGE value="working on monthly report" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on monthly report" />
+    <MESSAGE value="monthly report done" />
+    <option name="LAST_COMMIT_MESSAGE" value="monthly report done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="493" y="141" key="FileChooserDialogImpl" timestamp="1605199699083">
       <screen x="45" y="24" width="1321" height="744" />
     </state>
     <state x="493" y="141" key="FileChooserDialogImpl/45.24.1321.744@45.24.1321.744" timestamp="1605199699083" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605348752211">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605350443861">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605348752211" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605350032339">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605350443861" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605351851073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605350032339" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605351851073" />
   </component>
 </project>
