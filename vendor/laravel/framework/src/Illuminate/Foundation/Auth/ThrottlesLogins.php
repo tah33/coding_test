@@ -107,7 +107,7 @@ trait ThrottlesLogins
      */
     public function maxAttempts()
     {
-        $attempt = session()->has('increased_time') ? 2 : 3;
+        $attempt = session()->has('increased_time') ? 5 : 3;
         $attempts = property_exists($this, 'maxAttempts') ? $this->maxAttempts : $attempt;
         if ($attempts != 3)
             session()->put('increased_time',30);
@@ -121,7 +121,7 @@ trait ThrottlesLogins
      */
     public function decayMinutes()
     {
-        $time = session()->has('increased_time') ? session()->get('increased_time') : 10;
+        $time = session()->has('increased_time') ? 30 : 10;
         return property_exists($this, 'decayMinutes') ? $this->decayMinutes : $time;
     }
 }
