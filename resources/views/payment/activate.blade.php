@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-12 col-sm-12 col-12">
-                <p>You will be charged for $10 for this monthly subscription</p>
+                <p>You Will be Charged $10 for Activating Account</p>
                 <div class="card">
                     <form action="{{route('stripe.payment')}}" method="post" id="payment-form">@csrf
                         <div class="form-group">

@@ -13,6 +13,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 //Activate Account
 Route::get('account-activate','PaymentController@activate')->name('activate.account');
-
 //Payment
 Route::post('stripe-payment','PaymentController@payment')->name('stripe.payment');
+
+//Monthly Report
+Route::get('/monthly-report','ReportController@monthlyReport')->name('monthly.report');
