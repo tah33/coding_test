@@ -30,7 +30,7 @@
                         </tbody>
                     </table>
                         @if(Auth::user()->status!=1)
-                            <button class="btn btn-success">Activate</button>
+                            <a href="{{route('activate.account')}}" class="btn btn-success">Activate</a>
                         @endif
                 </div>
             </div>
