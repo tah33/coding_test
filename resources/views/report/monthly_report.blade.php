@@ -9,21 +9,27 @@
 
                     <div class="card-body">
                         <table class="table table-bordered">
-                            <tbody>
+                            <thead>
                             <tr>
+                                <th>#</th>
                                 <th>Month</th>
                                 <th>Amount</th>
                                 <th>Activating Date</th>
                                 <th>Activating End Date</th>
                             </tr>
-                            <tr>
-                                <td>{{}}</td>
-                            </tr>
+                            </thead>
+                            <tbody>
+                            @foreach($payments as $key=> $payment)
+                                <tr>
+                                    <td>{{$key+1}}</td>
+                                    <td>{{$payment->created_at->format('M , Y')}}</td>
+                                    <td>${{$payment->amount}}</td>
+                                    <td>{{$payment->start_date}}</td>
+                                    <td>{{$payment->end_date}}</td>
+                                </tr>
+                            @endforeach
                             </tbody>
                         </table>
-                        @if(Auth::user()->status!=1)
-                            <a href="{{route('activate.account')}}" class="btn btn-success">Activate</a>
-                        @endif
                     </div>
                 </div>
             </div>
